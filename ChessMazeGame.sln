@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35219.272
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChessMazeGame", "ChessMazeGame\ChessMazeGame.csproj", "{732A8865-ABDD-4856-ACE4-443516F6EA11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChessMazeGameTest", "ChessMazeGameTest\ChessMazeGameTest.csproj", "{65EDF587-CB8F-44FE-8B9E-4472EF358309}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{732A8865-ABDD-4856-ACE4-443516F6EA11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{732A8865-ABDD-4856-ACE4-443516F6EA11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{732A8865-ABDD-4856-ACE4-443516F6EA11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{732A8865-ABDD-4856-ACE4-443516F6EA11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65EDF587-CB8F-44FE-8B9E-4472EF358309}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65EDF587-CB8F-44FE-8B9E-4472EF358309}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65EDF587-CB8F-44FE-8B9E-4472EF358309}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65EDF587-CB8F-44FE-8B9E-4472EF358309}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7B9CB0F9-01B0-4191-B35E-A06F6EEE7300}
+	EndGlobalSection
+EndGlobal
