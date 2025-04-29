@@ -51,7 +51,3 @@ This project is a chess maze game where players need to find a path from start t
 
 - `ChessMazeGame/` - Main project code
 - `ChessMazeGameTest/` - Unit test project
-
-## License
-
-[Add your license information] 
