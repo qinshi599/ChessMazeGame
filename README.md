@@ -8,10 +8,32 @@ This project is a chess maze game where players need to find a path from start t
 
 ## Features
 
-- Chess-based movement system
-- Multiple maze layouts
-- Unit tests
-- Clean code structure
+1. Game Management
+- Restart Game: Reset the game to its initial state
+- Undo: Revert to previous move
+- Make Move: Execute chess piece movements
+- Track Move History: Record all moves made during gameplay
+- Move Steps Count: Track the number of moves made
+- IsGameOver: Detect when player has reached the goal
+
+2. Board Management
+- Get Piece at Position: Retrieve chess piece at a specific board coordinate
+- Place Piece on Board: Position pieces on the game board
+- Validate Board Position (IsValidPosition): Check if coordinates are within board boundaries
+- Validate Empty Position (IsEmptyPosition): Verify if a position is unoccupied
+- Validate Move (IsMoveLegal): Ensure moves follow chess rules
+- Path Clear Validation (IsPathClear): Check if the path between positions is unobstructed
+
+3. Piece Movement
+- Support for multiple chess pieces:
+    - King movement
+    - Rook movement
+    - Knight movement
+    - Bishop movement
+    - Pawn movement (with promotion capability)
+
+4. Player Management
+- Player movement controls
 
 ## Tech Stack
 
